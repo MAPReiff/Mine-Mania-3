@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " D ",
+        "DED",
+        " D "
+    ],
+    "key": {
+        "D": {
+            "item": "mrmm:diamondium_nugget"
+        },
+        "E":{
+            "item": "minecraft:ender_eye"
+        }
+    },
+    "result": {
+        "item": "mrmm:diamondium",
+        "count": 1
+    }
+}

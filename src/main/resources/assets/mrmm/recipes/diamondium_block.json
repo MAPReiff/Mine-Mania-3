@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        "DDD",
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "mrmm:diamondium"
+        }
+    },
+    "result": {
+        "item": "mrmm:diamondium_block",
+        "count": 1
+    }
+}
+
