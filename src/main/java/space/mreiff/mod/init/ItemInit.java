@@ -38,9 +38,9 @@ public class ItemInit {
 	public static final Item RUBY_SHOVEL = new ToolShovel("ruby_shovel", RUBY_TOOL);
 	public static final Item RUBY_SWORD = new ToolSword("ruby_sword", RUBY_TOOL);
 
-	public static final Item RUBY_HELM = new ArmorBase("ruby_helm", RUBY_ARMOR, 1, EntityEquipmentSlot.HEAD);
-	public static final Item RUBY_CHEST = new ArmorBase("ruby_chest", RUBY_ARMOR, 1, EntityEquipmentSlot.CHEST);
-	public static final Item RUBY_LEGS = new ArmorBase("ruby_legs", RUBY_ARMOR, 2, EntityEquipmentSlot.LEGS);
+	public static final Item RUBY_HELMMET = new ArmorBase("ruby_helmet", RUBY_ARMOR, 1, EntityEquipmentSlot.HEAD);
+	public static final Item RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", RUBY_ARMOR, 1, EntityEquipmentSlot.CHEST);
+	public static final Item RUBY_LEGGINGSS = new ArmorBase("ruby_leggings", RUBY_ARMOR, 2, EntityEquipmentSlot.LEGS);
 	public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", RUBY_ARMOR, 1, EntityEquipmentSlot.FEET);
 	
 	

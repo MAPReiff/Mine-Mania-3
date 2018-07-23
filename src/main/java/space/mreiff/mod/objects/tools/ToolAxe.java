@@ -11,6 +11,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
+import space.mreiff.mod.Main;
 import space.mreiff.mod.init.ItemInit;
 import space.mreiff.mod.util.IHasModel;
 
@@ -35,7 +36,10 @@ public class ToolAxe extends ItemTool implements IHasModel {
 	@Override
 	public void registerModels() {
 		// TODO Auto-generated method stub
-		
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
+
 	}
 
 }
+
+
