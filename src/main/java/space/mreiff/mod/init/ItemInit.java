@@ -46,7 +46,7 @@ public class ItemInit {
 	
 	
 	
-
+	//diamondium
 	public static final Item DIAMONDIUM = new ItemBase("diamondium");
 	public static final Item DIAMONDIUM_NUGGET = new ItemBase("diamondium_nugget");
 
