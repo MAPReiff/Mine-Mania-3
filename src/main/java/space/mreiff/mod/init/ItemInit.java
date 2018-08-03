@@ -104,12 +104,9 @@ public class ItemInit {
 
 	// Potato
 	public static final ToolMaterial POTATO_TOOL = EnumHelper.addToolMaterial("potato_tool", 0, 49, 1.5F, 0.0F, 10);
-//	public static final ArmorMaterial POTATO_ARMOR = EnumHelper.addArmorMaterial("potato_armor",
-//			Reference.MOD_ID + ":potato", 15, new int[] { 1, 3, 2, 1 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
-	
 	public static final ArmorMaterial POTATO_ARMOR = EnumHelper.addArmorMaterial("potato_armor",
-			Reference.MOD_ID + ":potato", 50, new int[] { 4, 9, 7, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
-			2.0f);
+			Reference.MOD_ID + ":potato", 15, new int[] { 1, 3, 2, 1 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
+
 
 	public static final Item POTATO_AXE = new ToolAxe("potato_axe", POTATO_TOOL);
 	public static final Item POTATO_HOE = new ToolHoe("potato_hoe", POTATO_TOOL);

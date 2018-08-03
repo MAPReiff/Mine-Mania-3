@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "D  ",
+        " S ",
+        "  D"
+    ],
+    "key": {
+        "D": {
+            "item": "mrmm:diamondium"
+        },
+        "S":{
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mrmm:holy_root",
+        "count": 4
+    }
+}
