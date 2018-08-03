@@ -7,7 +7,8 @@ As new versions of the mod and Forge become available, I will update the table b
 
 | Minecraft Version | Mod Version |
 | ------ | ------ |
-| 1.12.2 | [Latest]() |
+| 1.12.2 | [Latest](https://github.com/MAPReiff/Mine-Mania-3/releases/latest) |
+| 1.12.2 | [1.0A](https://github.com/MAPReiff/Mine-Mania-3/releases/tag/v1.0A) |
 
 
 # Powered By
