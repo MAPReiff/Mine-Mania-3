@@ -5,7 +5,7 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemPickaxe;
 import space.mreiff.mod.Main;
 import space.mreiff.mod.init.ItemInit;
-import space.mreiff.mod.util.IHasModel;
+import space.mreiff.mod.util.interfaces.IHasModel;
 
 public class ToolPickaxe extends ItemPickaxe implements IHasModel {
 

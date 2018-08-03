@@ -5,8 +5,10 @@ import java.util.List;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import space.mreiff.mod.objects.blocks.BlockOres;
 import space.mreiff.mod.objects.blocks.DiamondiumBlock;
 import space.mreiff.mod.objects.blocks.RubyBlock;
+import space.mreiff.mod.objects.blocks.RubyOre;
 
 public class BlockInit {
 
@@ -16,7 +18,11 @@ public class BlockInit {
 
 	
 	public static final Block RUBY_BLOCK = new RubyBlock("ruby_block", Material.IRON);
+	public static final Block RUBY_ORE = new RubyOre("ruby_ore", Material.IRON);
+	
 	public static final Block DIAMONDIUM_BLOCK = new DiamondiumBlock("diamondium_block", Material.IRON);
+	
+	
 
 
 }

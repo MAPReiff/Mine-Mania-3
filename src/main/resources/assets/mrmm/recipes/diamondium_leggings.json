@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RRR",
+        "R R",
+        "R R"
+    ],
+    "key": {
+        "R": {
+            "item": "mrmm:diamondium"
+        }
+    },
+    
+    "result": {
+        "item": "mrmm:diamondium_leggings",
+        "count": 1
+    }
+}

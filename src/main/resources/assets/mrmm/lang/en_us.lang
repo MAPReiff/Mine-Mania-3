@@ -1,5 +1,8 @@
+item.holy_root.name=Holy Root
+
 item.ruby.name=Ruby
 tile.ruby_block.name=Block of Ruby
+tile.ruby_ore.name=Ruby Ore
 
 item.ruby_axe.name=Ruby Axe
 item.ruby_pickaxe.name=Ruby Pickaxe
@@ -23,3 +26,29 @@ item.emerald_boots.name=Emerald Boots
 
 item.diamondium.name=Diamoundium
 tile.diamondium_block.name=Block of Diamondium
+
+item.diamondium_axe.name=Diamondium Axe
+item.diamondium_pickaxe.name=Diamondium Pickaxe
+item.diamondium_hoe.name=Diamondium Hoe
+item.diamondium_shovel.name=Diamondium Shovel
+item.diamondium_sword.name=Diamondium Sword
+item.diamondium_helmet.name=Diamondium Helmet
+item.diamondium_chestplate.name=Diamondium Chestplate
+item.diamondium_leggings.name=Diamondium Leggings
+item.diamondium_boots.name=Diamondium Boots
+
+item.dirt_axe.name=Dirt Axe
+item.dirt_pickaxe.name=Dirt Pickaxe
+item.dirt_hoe.name=Dirt Hoe
+item.dirt_shovel.name=Dirt Shovel
+item.dirt_sword.name=Dirt Sword
+
+item.potato_axe.name=Potato Axe
+item.potato_pickaxe.name=Potato Pickaxe
+item.potato_hoe.name=Potato Hoe
+item.potato_shovel.name=Potato Shovel
+item.potato_sword.name=Potato Sword
+item.potato_helmet.name=Potato Helmet
+item.potato_chestplate.name=Potato Chestplate
+item.potato_leggings.name=Potato Leggings
+item.potato_boots.name=Potato Boots

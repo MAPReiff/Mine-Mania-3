@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RRR",
+        " S ",
+        " S "
+    ],
+    "key": {
+        "R": {
+            "item": "mrmm:diamondium"
+        },
+        "S":{
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mrmm:diamondium_pickaxe",
+        "count": 1
+    }
+}

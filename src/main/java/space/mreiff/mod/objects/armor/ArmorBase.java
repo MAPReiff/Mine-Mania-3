@@ -5,7 +5,7 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 import space.mreiff.mod.Main;
 import space.mreiff.mod.init.ItemInit;
-import space.mreiff.mod.util.IHasModel;
+import space.mreiff.mod.util.interfaces.IHasModel;
 
 public class ArmorBase extends ItemArmor implements IHasModel {
 

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "R R",
+        "RRR",
+        "RRR"
+    ],
+    "key": {
+        "R": {
+            "item": "mrmm:diamondium"
+        }
+    },
+    
+    "result": {
+        "item": "mrmm:diamondium_chestplate",
+        "count": 1
+    }
+}

@@ -4,7 +4,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemHoe;
 import space.mreiff.mod.Main;
 import space.mreiff.mod.init.ItemInit;
-import space.mreiff.mod.util.IHasModel;
+import space.mreiff.mod.util.interfaces.IHasModel;
 
 public class ToolHoe extends ItemHoe implements IHasModel {
 

@@ -13,7 +13,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
 import space.mreiff.mod.Main;
 import space.mreiff.mod.init.ItemInit;
-import space.mreiff.mod.util.IHasModel;
+import space.mreiff.mod.util.interfaces.IHasModel;
 
 public class ToolAxe extends ItemTool implements IHasModel {
 	

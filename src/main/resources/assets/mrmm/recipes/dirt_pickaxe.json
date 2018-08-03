@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RRR",
+        " S ",
+        " S "
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:dirt",
+            "data": 0
+        },
+        "S":{
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mrmm:dirt_pickaxe",
+        "count": 1
+    }
+}

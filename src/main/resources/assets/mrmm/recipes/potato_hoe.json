@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RR ",
+        " S ",
+        " S "
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:potato"
+        },
+        "S":{
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "mrmm:potato_hoe",
+        "count": 1
+    }
+}

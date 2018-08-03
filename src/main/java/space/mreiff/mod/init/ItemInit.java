@@ -3,6 +3,7 @@ package space.mreiff.mod.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -10,6 +11,7 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import space.mreiff.mod.objects.armor.ArmorBase;
+import space.mreiff.mod.objects.items.HolyRoot;
 import space.mreiff.mod.objects.items.ItemBase;
 import space.mreiff.mod.objects.tools.ToolAxe;
 import space.mreiff.mod.objects.tools.ToolHoe;
@@ -25,8 +27,10 @@ public class ItemInit {
 	// public static final Item NAME = new ItemBase("name");
 	// public static final Item INGOT_RED = new ItemBase("ingot_red");
 
+	public static final Item HOLY_ROOT = new HolyRoot("holy_root", 1, 0.5f, false).setCreativeTab(CreativeTabs.FOOD);
+		
 	// ruby
-	public static final Item RUBY = new ItemBase("ruby");
+	public static final Item RUBY = new ItemBase("ruby").setCreativeTab(CreativeTabs.MATERIALS);
 
 	public static final ToolMaterial RUBY_TOOL = EnumHelper.addToolMaterial("ruby_tool", 3, 1561, 8.0f, 3.0f, 18);
 	public static final ArmorMaterial RUBY_ARMOR = EnumHelper.addArmorMaterial("ruby_armor", Reference.MOD_ID + ":ruby",
@@ -64,21 +68,56 @@ public class ItemInit {
 	public static final Item EMERALD_BOOTS = new ArmorBase("emerald_boots", EMERALD_ARMOR, 1, EntityEquipmentSlot.FEET);
 
 	// diamondium
-	public static final ToolMaterial DIAMONDIUM_TOOL = EnumHelper.addToolMaterial("diamondium_tool", 6, 1999,
-			7.5F, 4.6F, 18);
-	public static final ArmorMaterial DIAMONDIUM_ARMOR = EnumHelper.addArmorMaterial("diamondium_armor", Reference.MOD_ID + "diamondium", 50,
-			new int[] { 4, 9, 7, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f);
+	public static final ToolMaterial DIAMONDIUM_TOOL = EnumHelper.addToolMaterial("diamondium_tool", 6, 1999, 7.5F,
+			4.6F, 18);
+	public static final ArmorMaterial DIAMONDIUM_ARMOR = EnumHelper.addArmorMaterial("diamondium_armor",
+			Reference.MOD_ID + ":diamondium", 50, new int[] { 4, 9, 7, 4 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+			2.0f);
 
-	
-	public static final Item DIAMONDIUM = new ItemBase("diamondium");
-//	public static final Item DIAMONDIUM_NUGGET = new ItemBase("diamondium_nugget");
-	
-	
-	
-	
+	public static final Item DIAMONDIUM = new ItemBase("diamondium").setCreativeTab(CreativeTabs.MATERIALS);
+//	public static final Item DIAMONDIUM_NUGGET = new ItemBase("diamondium_nugget").setCreativeTab(CreativeTabs.MATERIALS);
 
-//	public static final ToolMaterial dirtMaterial = EnumHelper.addToolMaterial("dirtMaterial", 0, 15, 1.0F, 0.0F,
-//			2);
+	public static final Item DIAMONDIUM_AXE = new ToolAxe("diamondium_axe", DIAMONDIUM_TOOL);
+	public static final Item DIAMONDIUM_HOE = new ToolHoe("diamondium_hoe", DIAMONDIUM_TOOL);
+	public static final Item DIAMONDIUM_PICKAXE = new ToolPickaxe("diamondium_pickaxe", DIAMONDIUM_TOOL);
+	public static final Item DIAMONDIUM_SHOVEL = new ToolShovel("diamondium_shovel", DIAMONDIUM_TOOL);
+	public static final Item DIAMONDIUM_SWORD = new ToolSword("diamondium_sword", DIAMONDIUM_TOOL);
+
+	public static final Item DIAMONDIUM_HELMMET = new ArmorBase("diamondium_helmet", DIAMONDIUM_ARMOR, 1,
+			EntityEquipmentSlot.HEAD);
+	public static final Item DIAMONDIUM_CHESTPLATE = new ArmorBase("diamondium_chestplate", DIAMONDIUM_ARMOR, 1,
+			EntityEquipmentSlot.CHEST);
+	public static final Item DIAMONDIUM_LEGGINGSS = new ArmorBase("diamondium_leggings", DIAMONDIUM_ARMOR, 2,
+			EntityEquipmentSlot.LEGS);
+	public static final Item DIAMONDIUM_BOOTS = new ArmorBase("diamondium_boots", DIAMONDIUM_ARMOR, 1,
+			EntityEquipmentSlot.FEET);
+
+	// dirt
+	public static final ToolMaterial DIRT_TOOL = EnumHelper.addToolMaterial("dirt_tool", 0, 15, 1.0F, 0.0F, 2);
+	public static final Item DIRT_AXE = new ToolAxe("dirt_axe", DIRT_TOOL);
+	public static final Item DIRT_HOE = new ToolHoe("dirt_hoe", DIRT_TOOL);
+	public static final Item DIRT_PICKAXE = new ToolPickaxe("dirt_pickaxe", DIRT_TOOL);
+	public static final Item DIRT_SHOVEL = new ToolShovel("dirt_shovel", DIRT_TOOL);
+	public static final Item DIRT_SWORD = new ToolSword("dirt_sword", DIRT_TOOL);
+
+	// Potato
+	public static final ToolMaterial POTATO_TOOL = EnumHelper.addToolMaterial("potato_tool", 0, 49, 1.5F, 0.0F, 10);
+	public static final ArmorMaterial POTATO_ARMOR = EnumHelper.addArmorMaterial("potato_armor",
+			Reference.MOD_ID + ":potato", 15, new int[] { 1, 3, 2, 1 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
+
+	public static final Item POTATO_AXE = new ToolAxe("potato_axe", POTATO_TOOL);
+	public static final Item POTATO_HOE = new ToolHoe("potato_hoe", POTATO_TOOL);
+	public static final Item POTATO_PICKAXE = new ToolPickaxe("potato_pickaxe", POTATO_TOOL);
+	public static final Item POTATO_SHOVEL = new ToolShovel("potato_shovel", POTATO_TOOL);
+	public static final Item POTATO_SWORD = new ToolSword("potato_sword", POTATO_TOOL);
+
+	public static final Item POTATO_HELMMET = new ArmorBase("potato_helmet", POTATO_ARMOR, 1, EntityEquipmentSlot.HEAD);
+	public static final Item POTATO_CHESTPLATE = new ArmorBase("potato_chestplate", POTATO_ARMOR, 1,
+			EntityEquipmentSlot.CHEST);
+	public static final Item POTATO_LEGGINGSS = new ArmorBase("potato_leggings", POTATO_ARMOR, 2,
+			EntityEquipmentSlot.LEGS);
+	public static final Item POTATO_BOOTS = new ArmorBase("potato_boots", POTATO_ARMOR, 1, EntityEquipmentSlot.FEET);
+
 //	public static final ToolMaterial glassMaterial = EnumHelper.addToolMaterial("dirtMaterial", 3, 1, 5.0F, 2.5F,
 //			30);
 //	public static final ToolMaterial potMaterial = EnumHelper.addToolMaterial("potMaterial", 0, 49, 1.5F, 0.0F,

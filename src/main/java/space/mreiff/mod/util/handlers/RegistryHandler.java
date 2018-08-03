@@ -6,9 +6,11 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import space.mreiff.mod.init.BlockInit;
 import space.mreiff.mod.init.ItemInit;
-import space.mreiff.mod.util.IHasModel;
+import space.mreiff.mod.util.interfaces.IHasModel;
+import space.mreiff.mod.world.gen.WorldGenCustomOres;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -40,6 +42,10 @@ public class RegistryHandler {
 		}
 	}
 
+	public static void otherRegistries() {
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+	}
+	
 
 
 }

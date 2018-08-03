@@ -5,7 +5,7 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemSword;
 import space.mreiff.mod.Main;
 import space.mreiff.mod.init.ItemInit;
-import space.mreiff.mod.util.IHasModel;
+import space.mreiff.mod.util.interfaces.IHasModel;
 
 public class ToolShovel extends ItemSword implements IHasModel {
 

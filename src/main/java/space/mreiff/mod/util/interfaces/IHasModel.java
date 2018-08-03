@@ -1,4 +1,4 @@
-package space.mreiff.mod.util;
+package space.mreiff.mod.util.interfaces;
 
 public interface IHasModel {
 	
